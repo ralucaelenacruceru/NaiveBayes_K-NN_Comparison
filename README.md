@@ -9,17 +9,22 @@ The dataset (urinedata.csv) contains information about urinary metabolite levels
 Analysis Steps
 
 Data Loading and Exploration:
+
 The data is loaded from the CSV file using pandas.
 Exploratory analysis is conducted, including checking data shape, variable distributions, data types, and presence of null values.
+
 Data Visualization:
 Histograms are plotted to visualize the distribution of metabolite measurements.
+
 Model Training and Evaluation:
+
 The data is split into training, validation, and test sets.
 Features are standardized using StandardScaler.
 A KNN classifier is trained and evaluated on the training, validation, and test sets.
 A Gaussian Naive Bayes classifier is trained and evaluated on the same sets.
 Confusion matrices are plotted to evaluate classification performance.
 Accuracy scores are calculated for each classifier on different sets.
+
 Comparison:
 A comparison of accuracy scores between KNN and Gaussian Naive Bayes classifiers is visualized using bar plots.
 Results
